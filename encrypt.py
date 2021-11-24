@@ -49,7 +49,7 @@ if 10 > len(key) or len(key) > 15:
     print("Key MUST be between 10 and 15 characters!!!")
     exit(0)
     
-# Decrypt
+# Encrypt
 output = encrypt(key, binput)
 
 output_file(args.output, bytearray(output))
