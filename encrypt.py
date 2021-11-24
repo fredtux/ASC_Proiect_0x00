@@ -29,7 +29,7 @@ def encrypt(key, binput):
 
     i = 0
     kl = len(key)
-    for index, value in enumerate(binput):
+    for _, value in enumerate(binput):
         res.append(value ^ key[i])
 
         i = (i + 1) % kl  # Rotate through key
