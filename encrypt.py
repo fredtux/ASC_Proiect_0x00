@@ -45,7 +45,7 @@ binput = get_input_bytearray(args.input)
 
 # Make key a bytearray
 key = bytearray(args.key, encoding="UTF-8")
-if 10 >= len(key) or len(key) >= 15:
+if 10 > len(key) or len(key) > 15:
     print("Key MUST be between 10 and 15 characters!!!")
     exit(0)
     
