@@ -19,8 +19,8 @@ def get_input_bytearray(input_file):
         return res
 
 
-def output_file(output_file, bstring):
-    with open(output_file, "wb") as file:
+def output_file(ofile, bstring):
+    with open(ofile, "wb") as file:
         file.write(bstring)
 
 
