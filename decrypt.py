@@ -34,6 +34,10 @@ binput = get_input_bytearray(args.input)
 
 # Make key a bytearray
 key = bytearray(args.key, encoding="UTF-8")
+if 10 > len(key) or len(key) > 15:
+    print("Key must be between 10 and 15 characters!!!")
+    exit(0)
+
 
 # Decrypt
 output = decrypt(key, binput)
