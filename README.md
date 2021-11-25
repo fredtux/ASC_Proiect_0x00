@@ -13,8 +13,3 @@ python encrypt.py 0ParolaLunga input.txt output
 ```bash
 python decrypt.py output 0ParolaLunga output.txt
 ```
-
-## Extragere cheie
-```bash
-python crack.py input.txt output
-```
