@@ -2,7 +2,7 @@
 
 # Fisiere
 1. ✔️Completare decrypt.py✔️
-2. ✔️Adaugare crack.py (optional, dar ne diferentiaza de restul)✔️
+2. ✖Adaugare crack.py (optional, dar ne diferentiaza de restul) ✖ (motiv: out of scope)
 
 # Modificari
 1. ✔️Adaugat limite pentru cheie si afisare eroare altfel✔️
