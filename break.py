@@ -1,3 +1,5 @@
+# Sursa: https://math.stackexchange.com/questions/28955/how-to-break-xor-cipher-with-repeating-key al 2-lea raspuns
+
 from collections import Counter
 
 
