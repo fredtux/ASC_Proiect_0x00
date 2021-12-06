@@ -1,4 +1,5 @@
-# Sursa: https://math.stackexchange.com/questions/28955/how-to-break-xor-cipher-with-repeating-key al 2-lea raspuns
+# Sursa 1: https://math.stackexchange.com/questions/28955/how-to-break-xor-cipher-with-repeating-key al 2-lea raspuns
+# Sursa 2: https://www.geeksforgeeks.org/python-find-most-frequent-element-in-a-list/
 
 from collections import Counter
 
