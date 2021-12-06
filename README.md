@@ -32,6 +32,6 @@ Ne-am folosit din nou de faptul ca avem cheia intre 10 si 15 caractere. Am incer
 
 Pentru aflarea unei chei candidat ne-am bazat pe faptul ca cel mai folosit caracter din limba romana este spatiul. Asa ca am luat toti octetii din k in k (10 <= k <= 15, adica lungimea cheii) si am gasit cel mai folosit octet, pe care l-am XORat cu 0x20, adica spatiu. Asa am obtinut primul caracter. Apoi am trecut la caracterul cu numarul 1 de unde am inceput parcurgerea tuturor octetilor din k in k la fel ca mai inainte. Dat fiind un text suficient de lung, aceasta metoda are o probabilitate foarte mare de a gasi cheia.
 
-Pentru filtrarea cheilor candidat am folosit excluderea celor care nu au caractere alfanumerice ca in enunt, asa ca au ramas doar o parte din chei. Nefiind multe, le-am incercat pe rand si am cautat intr-o lista cu cele mai folosite cuvinte din romana cate apar. Daca vocabularul continea cel putin jumatate din lista, atunci afisam cheia.
+Pentru filtrarea cheilor candidat am folosit excluderea celor care nu au caractere alfanumerice ca in enunt, asa ca au ramas doar o parte din chei. Nefiind multe, le-am incercat pe rand si am cautat intr-o lista cu cele mai folosite cuvinte din romana cate apar. Daca vocabularul fisierului decriptat continea cel putin jumatate din lista, atunci afisam cheia.
 
 Ambii pasi tin de probabilitati, dar dat fiind un text destul de mare, atunci cheia afisata va fi unica.
