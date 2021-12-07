@@ -1,5 +1,6 @@
-# Sursa 1: https://math.stackexchange.com/questions/28955/how-to-break-xor-cipher-with-repeating-key al 2-lea raspuns
-# Sursa 2: https://www.geeksforgeeks.org/python-find-most-frequent-element-in-a-list/
+# Sursa 1: https://math.stackexchange.com/questions/28955/how-to-break-xor-cipher-with-repeating-key (al 2-lea raspuns - folosit in prima parte a scriptului)
+# Sursa 2: https://www.geeksforgeeks.org/python-find-most-frequent-element-in-a-list/ (functia most_frequent)
+# Sursa 3: https://dokumen.tips/documents/cele-mai-frecvente-cuvinte-din-limba-romana.html (lista de cuvinte)
 
 
 from collections import Counter
