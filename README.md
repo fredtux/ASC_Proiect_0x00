@@ -1,15 +1,16 @@
 # Proiect ASC 0x00
 Criptare XOR
 
-# Folosire
+# Etapa 1
+## Folosire
 (parola data ca exemplu nu este folosita in criptarea fisierului output)
 
-## Criptare
+### Criptare
 ```bash
 python encrypt.py 0ParolaLunga input.txt output
 ```
 
-## Decriptare
+### Decriptare
 ```bash
 python decrypt.py output 0ParolaLunga output.txt
 ```
